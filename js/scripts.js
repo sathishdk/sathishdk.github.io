@@ -1,5 +1,6 @@
 function hello(){
  var username = document.getElementByID('username');
  var password = document.getElementByID('password');
- console.log("USERNAME: " + username + " & PASSWORD: " + password);
+ var message = "USERNAME: " + username + " & PASSWORD: " + password;
+ console.log(message);
 }
